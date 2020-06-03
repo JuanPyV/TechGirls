@@ -105,7 +105,25 @@ footer {
 
 }
 
+<!-- Footer -->
+.footerA {
+  background-color: #a495ab;
+  color: white;
+}
+.footerB {
+  background-color: #dbc3f3;
+}
+.containerr {
+  width: 90%; text-align: center; margin: auto;
+}
 
+a.day-link{
+  color: black;
+  text-decoration: none;
+}
+a.day-link:hover {
+  text-decoration: underline;
+}
 
 
 

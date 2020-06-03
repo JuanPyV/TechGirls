@@ -4,12 +4,17 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>TechGirl</title>
+
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
 	<link href="css/style.css" rel="stylesheet" />
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
 </head>
 
 <body>
@@ -23,19 +28,16 @@
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
-					<a href="#" class="nav-link">Home</a>
+					<a href="#slider" class="nav-link">Home</a>
 				</li>
 				<li class="nav-item">
 					<a href="#about" class="nav-link">About</a>
 				</li>
 				<li class="nav-item">
-					<a href="#services" class="nav-link">Activities</a>
+					<a href="#activities" class="nav-link">Activities</a>
 				</li>
 				<li class="nav-item">
-					<a href="#team" class="nav-link">Team</a>
-				</li>
-				<li class="nav-item">
-					<a href="#connect" class="nav-link">Connect</a>
+					<a href="#q&a" class="nav-link">Q&A</a>
 				</li>
 			</ul>
 		</div>
@@ -43,7 +45,7 @@
 </nav>
 
 <!--- Image Slider -->
-
+<section id="slider">
 <div id="slides" class="carousel slide" data-ride="carousel">
 	<ul class="carousel-indicators">
 		<li data-target="#slides" data-slide-to="0" class="active"></li>
@@ -66,7 +68,7 @@
 		</div>
 	</div>
 </div>
-
+</section>
 
 <section id="about">
 	<br><br>
@@ -104,42 +106,53 @@
 				<div class="col col-12 col-lg-4">
 					<div class="card" style="width: 100%">
 						<div class="card-body align-middle">
-							<h5 class="card-title d-flex justify-content-center" >1</h5>
+							<a class="day-link" href="dayOne.html">
+							<h5 class="card-title d-flex justify-content-center" >1ˢᵗ</h5>
 							<p class="card-text d-flex justify-content-center">DAY</p>
+							</a>
 						</div>
 					</div>
 				</div>
 				<div class="col col-12 col-lg-4">
 					<div class="card" style="width: 100%">
 						<div class="card-body align-middle">
-							<h5 class="card-title d-flex justify-content-center" >1</h5>
+							<a class="day-link" href="dayTwo.html">
+							<h5 class="card-title d-flex justify-content-center" >2ⁿᵈ</h5>
 							<p class="card-text d-flex justify-content-center">DAY</p>
+							</a>
 						</div>
 					</div>
 				</div>
+
 				<div class="col col-12 col-lg-4">
 					<div class="card" style="width: 100%">
 						<div class="card-body align-middle">
-							<h5 class="card-title d-flex justify-content-center" >1</h5>
+							<a class="day-link" href="dayThree.html">
+							<h5 class="card-title d-flex justify-content-center" >3ʳᵈ</h5>
 							<p class="card-text d-flex justify-content-center">DAY</p>
+							</a>
 						</div>
 					</div>
 				</div>
+
 			</div>
+
 			<br>
 			<div class="row">
 				<div class="col col-12 col-lg-4">
 					<div class="card" style="width: 100%">
 						<div class="card-body align-middle">
-							<h5 class="card-title d-flex justify-content-center" >1</h5>
+							<a class="day-link" href="dayFour.html">
+							<h5 class="card-title d-flex justify-content-center" >4ᵗʰ</h5>
 							<p class="card-text d-flex justify-content-center">DAY</p>
+							</a>
 						</div>
 					</div>
 				</div>
 				<div class="col col-12 col-lg-4">
 					<div class="card" style="width: 100%">
 						<div class="card-body align-middle">
-							<h5 class="card-title d-flex justify-content-center" >1</h5>
+							<h5 class="card-title d-flex justify-content-center" >5ᵗʰ</h5>
 							<p class="card-text d-flex justify-content-center">DAY</p>
 						</div>
 					</div>
@@ -189,16 +202,9 @@
 	</div>
 </section>
 
-<section id="services">
-	<div class="row">
-		<div class="col col-12">
-			<h1 class="display-4">Team</h1>
-		</div>
-	</div>
-</section>
 
-
-<section id="team">
+<br><br>
+<section id="q&a">
 	<div class="row">
 		<div class="col col-12">
 			<h1 class="display-4">Q&A</h1>
@@ -241,30 +247,151 @@
 					</div>
 					<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
 						<div class="card-body">
-							El curso esta contemplado para una duración de 5 días (lunes a viernes)
+							El curso esta contemplado para una duración de 5 días (lunes a viernes) , de 9am a 5pm con una hora libre para la comida.
 						</div>
 					</div>
 				</div>
+				<div class="card">
+					<div class="card-header" id="headingFour">
+						<h2 class="mb-0">
+							<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+								¿Cuál es la edad recomendable para que las niñas tomen el curso?
+							</button>
+						</h2>
+					</div>
+					<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+						<div class="card-body">
+							El curso esta diseñado para niñas de secundaria y preparatoria con edades de entre 13 y 17 años.
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="headingFive">
+						<h2 class="mb-0">
+							<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+								¿El curso tiene algún costo?
+							</button>
+						</h2>
+					</div>
+					<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+						<div class="card-body">
+							No, el curso es totalmente gratuito, esto con el fin de motivar a las niñas a que asistan y que el factor monetario no sea problema alguno. Por esto mismo las organizadoras tendrán que conseguir patrocinios para poder realizar las playeras y si es posible darle las comidas a las participantes. (teacher assistant) para apoyar a la instructora a dar el curso y resolver cualquier duda que las niñas puedan llegar a tener.
+						</div>
+					</div>
+				</div>
+
 			</div>
 
 		</div>
 	</div>
 </section>
+<br><br><br>
 
+<!-- Footer -->
+<footer class="footerA">
 
-<section id="connect">
-	<div class="row">
-		<div class="col col-12">
-			<h1 class="display-4">Mas cosas</h1>
+	<!-- Footer Links -->
+	<div class="footerB">
+
+		<!-- Grid row -->
+		<div class="row">
+
+			<!-- Grid column -->
+			<div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+
+				<!-- Content -->
+				<h5 class="font-weight-bold text-muted text-center text-uppercase mb-4">TECH-GIRLS</h5>
+				<center>
+					<img src="https://i.ibb.co/jR9dXzS/lodo-Del-Tec.png" width="100" height="100" class="img-fluid" alt="ITESM">
+					<img src="https://fotos.subefotos.com/701972d4c9e809b1eaeae8fa3c9d21f4o.jpg" width="120" height="120" class="img-fluid" alt="TECHGIRLS">
+				</center>
+				<p class="blockquote text-monospace text-center text-muted">Instituto Tecnológico y de Estudios Superiores de Monterrey</p>
+			</div>
+			<!-- Grid column -->
+
+			<hr class="clearfix w-100 d-md-none">
+
+			<!-- Grid column -->
+			<div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+				<!-- Links -->
+				<h5 class="font-weight-bold text-muted text-uppercase mb-4">TEAM</h5>
+
+				<ul class="list-unstyled">
+					<li>
+						<p>
+							<a class="text-monospace text-muted">Mayra Guajardo</a>
+						</p>
+					</li>
+					<li>
+						<p>
+							<a class= "text-monospace text-muted">Mariana González</a>
+						</p>
+					</li>
+					<li>
+						<p>
+							<a class= "text-monospace text-muted">Montserrat Hernández</a>
+						</p>
+					</li>
+				</ul>
+
+			</div>
+			<!-- Grid column -->
+
+			<hr class="clearfix w-100 d-md-none">
+
+			<!-- Grid column -->
+			<div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+				<!-- Contact details -->
+				<h5 class="font-weight-bold text-muted text-uppercase mb-4">CONTACT</h5>
+
+				<ul class="list-unstyled">
+					<li>
+						<p class="mb-4 text-monospace text-muted">
+							<span class="material-icons">mail_outline</span> A01634475@itesm.mx</p>
+					</li>
+					<li>
+						<p class="text-monospace text-muted mb-4">
+							<span class="material-icons">mail_outline</span> A01630948@itesm.mx</p>
+					</li>
+					<li>
+						<p class="text-monospace text-muted mb-4">
+							<span class="material-icons">mail_outline</span> A01630782@itesm.mx</p>
+					</li>
+				</ul>
+
+			</div>
+			<!-- Grid column -->
+
+			<hr class="clearfix w-100 d-md-none">
+
+			<!-- Grid column -->
+			<div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+
+				<!-- Social buttons -->
+				<h5 class="font-weight-bold text-muted text-uppercase mb-4">MORE INFORMATION</h5>
+
+				<div class="containerr">
+					<!--Google Drive-->
+					<a href="https://drive.google.com/open?id=1IC2u3mnHQRvM3_pfKR9R9OZ4eotKKEoO"><img src="https://i.ibb.co/v3Hppx5/logo-Drive.png" class="img-fluid" width="80" height="70" alt="Drive del equipo"></a>
+				</div>
+			</div>
+			<!-- Grid column -->
+
 		</div>
-	</div>
-</section>
+		<!-- Grid row -->
 
-
-<footer>
-	<div class="container-fluid padding">
-		<p>Footer</p>
 	</div>
+	<!-- Footer Links -->
+
+	<!-- Copyright -->
+	<div class="footer-copyright text-center #a495ab">© 2020 Copyright:
+		<a> TECH-GIRLS</a>
+	</div>
+	<!-- Copyright -->
+
 </footer>
+<!-- Footer -->
 </body>
 </html>
